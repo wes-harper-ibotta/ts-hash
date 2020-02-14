@@ -1,0 +1,19 @@
+{
+  "name": "hashes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc --outDir ./dist",
+    "start": "npm run build && node ./dist/hashMap.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^25.1.0",
+    "tslint": "^6.0.0",
+    "typescript": "^3.7.5"
+  }
+}
